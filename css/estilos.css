@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    /* background-color: #9e1e93; */
+}
+nav{
+    text-align: center; /*CENTRALIZAR*/
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav_esq{
+    width: 500px;
+    height: 50px;
+    display: inline-block;
+}
+#nav_esq a{
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    /* margin: 6px; margem*/
+    padding: 20px 5px;/*margem*/
+}
+#nav_esq a:hover{
+    color: #7e2a70;
+    border-bottom: 5px solid #dc143c;
+}
+#nav_logo{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid #ccc3db; */
+    display: inline-block;
+    background-image: url(../img/logo_grill.png);
+    background-size: contain;
+    background-position: center, center;
+}
+.menu_ativo{
+    color: #2263dc;
+    border-bottom: 3px solid rgb(red, green, blue);
+}
+#nav_dir{
+    width: 500px;
+    height: 50px;
+    /*border: 2px solid #ccc3db;*/
+    display: inline-block;
+}
+#nav_dir a{
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#000000
+}
+#nav_dir a:hover{
+    color:#7e2a70;
+    border-bottom: 5px solid #dc143c;
+}
+main{
+    width: 1000px;
+    height: 1000px;
+    /* background-color: #d78fe6; */
+    margin-left: auto;
+    margin-right: auto;
+ /* border-radius: 30%; para deixar como circulo*/ 
+}
+main section{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #e7cbe3;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+.active_page{
+    color: #00ffff;
+    border-bottom: 5px solid #2263dc;
+}
+#contato_form, #contato_img{
+    width: 35%;
+    padding: 20px;
+    height: 400px;
+    border: 1px solid #e4076e;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    text-align: left;
+}
